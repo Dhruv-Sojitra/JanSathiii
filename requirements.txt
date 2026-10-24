@@ -1,0 +1,38 @@
+# JanSathiii AI - Python Dependencies
+# (Root reference pointing to backend requirements)
+
+# Core API Framework & ASGI Server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+starlette>=0.37.0
+
+# Database & ORM
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+psycopg2-binary>=2.9.0
+
+# Data Validation & Settings Management
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.0
+
+# File Uploads & Async I/O
+python-multipart>=0.0.9
+aiofiles>=23.2.0
+
+# Document Processing & Numerical Analysis (RAG / AI)
+numpy>=1.26.0
+pillow>=10.0.0
+
+# HTTP Client & Networking
+httpx>=0.27.0
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+cryptography>=42.0.0
+
+# AWS Cloud Services (Bedrock, S3, Textract)
+boto3>=1.34.0
+botocore>=1.34.0

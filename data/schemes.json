@@ -1,0 +1,305 @@
+{
+  "schemes": [
+    {
+      "name": "PM Scholarship for Central Armed Police Forces & Paramilitary Forces",
+      "description": "To encourage higher technical and professional education for the dependent wards & widows of CAPFs & AR Personnel.",
+      "category": "Education",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Home Affairs",
+      "benefits": "Scholarships up to Rs. 36000 per year for professional degree courses.",
+      "eligibility_summary": "Dependent wards & widows of CAPFs & AR personnel who died in harness/election duty or disabled due to causes attributable to Government service.",
+      "application_steps": "Step 1: Visit National Scholarship Portal.\nStep 2: Register as new user.\nStep 3: Fill application form and upload documents.",
+      "official_application_url": "https://scholarships.gov.in",
+      "official_source_url": "https://scholarships.gov.in/home",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["education", "scholarship", "forces"],
+      "eligibility_rules": [
+        {"field": "is_student", "operator": "eq", "value": "true", "display_label": "Must be a student", "is_mandatory": true},
+        {"field": "age", "operator": "gte", "value": "18", "display_label": "Minimum Age", "is_mandatory": false},
+        {"field": "age", "operator": "lte", "value": "25", "display_label": "Maximum Age", "is_mandatory": false}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "student_certificate", "display_name": "Bonafide Student Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Passbook/Cancelled Cheque", "is_mandatory": true, "notes": null},
+        {"document_type": "income_certificate", "display_name": "Income Certificate", "is_mandatory": false, "notes": null}
+      ]
+    },
+    {
+      "name": "Odisha Madhubabu Pension Yojana",
+      "description": "Social security pension scheme for the elderly, widows, and persons with disabilities in Odisha.",
+      "category": "Social Security",
+      "government_level": "state",
+      "state": "Odisha",
+      "department": "Department of Social Security and Empowerment of Persons with Disabilities",
+      "benefits": "Monthly pension of Rs. 500 to Rs. 900 depending on age and disability.",
+      "eligibility_summary": "Resident of Odisha, minimum age 60 (or widow of any age / person with disability), family income below limit.",
+      "application_steps": "Step 1: Visit local BDO or municipality office.\nStep 2: Submit filled form with documents.",
+      "official_application_url": "https://ssepd.odisha.gov.in",
+      "official_source_url": "https://ssepd.odisha.gov.in/schemes/ompy",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["pension", "elderly", "widow", "disability"],
+      "eligibility_rules": [
+        {"field": "state", "operator": "eq", "value": "Odisha", "display_label": "Resident of Odisha", "is_mandatory": true},
+        {"field": "annual_income", "operator": "lte", "value": "24000", "display_label": "Annual Family Income", "is_mandatory": true},
+        {"field": "age", "operator": "gte", "value": "60", "display_label": "Minimum Age (General)", "is_mandatory": false}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "residence_certificate", "display_name": "Resident Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "income_certificate", "display_name": "Income Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "disability_certificate", "display_name": "Disability Certificate", "is_mandatory": false, "notes": "If applying under disability category"}
+      ]
+    },
+    {
+      "name": "PM KISAN Samman Nidhi",
+      "description": "Income support to all landholding farmer families in the country.",
+      "category": "Agriculture",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "benefits": "Financial benefit of Rs. 6000 per year in three equal installments.",
+      "eligibility_summary": "All landholding farmers' families, which have cultivable landholding in their names.",
+      "application_steps": "Step 1: Visit PM-Kisan Portal.\nStep 2: Click on 'New Farmer Registration'.\nStep 3: Fill details and submit.",
+      "official_application_url": "https://pmkisan.gov.in",
+      "official_source_url": "https://pmkisan.gov.in/About.aspx",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["agriculture", "farmer", "income support"],
+      "eligibility_rules": [
+        {"field": "is_farmer", "operator": "eq", "value": "true", "display_label": "Must be a Farmer", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Passbook", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "Beti Bachao Beti Padhao",
+      "description": "Scheme to address the declining Child Sex Ratio (CSR) and related issues of women empowerment over a life-cycle continuum.",
+      "category": "Women Empowerment",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Women and Child Development",
+      "benefits": "Awareness and advocacy campaign, targeted multi-sectoral interventions.",
+      "eligibility_summary": "Girl child up to age 10 for opening Sukanya Samriddhi account under this umbrella.",
+      "application_steps": "Step 1: Visit nearest Post Office or Bank for Sukanya Samriddhi Account.\nStep 2: Submit required documents.",
+      "official_application_url": "https://wcd.nic.in/bbbp-schemes",
+      "official_source_url": "https://wcd.nic.in/bbbp-schemes",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "beneficiary_type": "child",
+      "tags": ["girl child", "education", "empowerment"],
+      "eligibility_rules": [
+        {"field": "gender", "operator": "eq", "value": "female", "display_label": "Female Child", "is_mandatory": true},
+        {"field": "age", "operator": "lte", "value": "10", "display_label": "Maximum Age for Account", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Birth Certificate/Aadhaar of Girl Child", "is_mandatory": true, "notes": null},
+        {"document_type": "residence_certificate", "display_name": "Address Proof of Parents", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "Ayushman Bharat PM-JAY",
+      "description": "Health insurance scheme providing health cover for secondary and tertiary care hospitalization.",
+      "category": "Healthcare",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Health and Family Welfare",
+      "benefits": "Health cover of Rs. 5 lakhs per family per year.",
+      "eligibility_summary": "Poor, deprived rural families and identified occupational categories of urban workers' families as per SECC 2011.",
+      "application_steps": "Step 1: Check eligibility on PMJAY portal using mobile number or ration card.\nStep 2: Visit empanelled hospital or CSC for e-card generation.",
+      "official_application_url": "https://pmjay.gov.in",
+      "official_source_url": "https://pmjay.gov.in/about/pmjay",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["health", "insurance", "medical"],
+      "eligibility_rules": [
+        {"field": "is_bpl", "operator": "eq", "value": "true", "display_label": "BPL Category", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "bpl_card", "display_name": "Ration Card / PM Letter", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "PM Awas Yojana - Gramin",
+      "description": "Housing for all in rural areas.",
+      "category": "Housing",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Rural Development",
+      "benefits": "Financial assistance of Rs. 1.20 lakh in plain areas and Rs. 1.30 lakh in hilly areas for construction of pucca house.",
+      "eligibility_summary": "Houseless families or those living in kutcha/dilapidated houses in rural areas.",
+      "application_steps": "Step 1: Beneficiary identified through Gram Sabha.\nStep 2: Verification by block officials.\nStep 3: Funds transferred directly to bank account.",
+      "official_application_url": "https://pmayg.nic.in",
+      "official_source_url": "https://pmayg.nic.in/netiay/about-us.aspx",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["housing", "rural", "infrastructure"],
+      "eligibility_rules": [
+        {"field": "area_type", "operator": "eq", "value": "rural", "display_label": "Rural Area", "is_mandatory": true},
+        {"field": "is_bpl", "operator": "eq", "value": "true", "display_label": "Economically Weaker Section", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Passbook", "is_mandatory": true, "notes": null},
+        {"document_type": "bpl_card", "display_name": "Job Card (MGNREGA) / Ration Card", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "National Scholarship Portal - Post Matric SC",
+      "description": "Financial assistance to SC students studying at post matriculation or post-secondary stage.",
+      "category": "Education",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Social Justice & Empowerment",
+      "benefits": "Maintenance allowance, reimbursement of compulsory non-refundable fees.",
+      "eligibility_summary": "SC students studying in recognized institutions, with family income up to Rs. 2.50 lakh per annum.",
+      "application_steps": "Step 1: Register on National Scholarship Portal.\nStep 2: Submit application and upload necessary documents.",
+      "official_application_url": "https://scholarships.gov.in",
+      "official_source_url": "https://socialjustice.gov.in/schemes",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["education", "sc", "scholarship"],
+      "eligibility_rules": [
+        {"field": "caste_category", "operator": "eq", "value": "sc", "display_label": "SC Category", "is_mandatory": true},
+        {"field": "is_student", "operator": "eq", "value": "true", "display_label": "Must be a student", "is_mandatory": true},
+        {"field": "annual_income", "operator": "lte", "value": "250000", "display_label": "Annual Family Income", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "caste_certificate", "display_name": "SC Caste Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "income_certificate", "display_name": "Income Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "student_certificate", "display_name": "Bonafide Student Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Passbook", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "Pradhan Mantri Mudra Yojana",
+      "description": "Loans up to Rs. 10 Lakhs to non-corporate, non-farm small/micro enterprises.",
+      "category": "Business/Employment",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Finance",
+      "benefits": "Collateral-free loans for income-generating activities in manufacturing, trading, and services.",
+      "eligibility_summary": "Any Indian citizen who has a business plan for a non-farm sector income generating activity.",
+      "application_steps": "Step 1: Prepare business plan.\nStep 2: Approach nearest bank or microfinance institution.\nStep 3: Fill Mudra loan application.",
+      "official_application_url": "https://www.mudra.org.in",
+      "official_source_url": "https://www.mudra.org.in/AboutUs",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["business", "loan", "micro-enterprise"],
+      "eligibility_rules": [
+        {"field": "age", "operator": "gte", "value": "18", "display_label": "Minimum Age", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "residence_certificate", "display_name": "Address Proof", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Statement (Last 6 Months)", "is_mandatory": false, "notes": null}
+      ]
+    },
+    {
+      "name": "Odisha Kalia Yojana",
+      "description": "Krushak Assistance for Livelihood and Income Augmentation for farmers in Odisha.",
+      "category": "Agriculture",
+      "government_level": "state",
+      "state": "Odisha",
+      "department": "Department of Agriculture, Odisha",
+      "benefits": "Financial assistance for cultivation, livelihood support for landless agricultural households.",
+      "eligibility_summary": "Small/marginal farmers and landless agricultural labourers of Odisha.",
+      "application_steps": "Step 1: Visit KALIA web portal or GP office.\nStep 2: Fill the form (Green/Red) as applicable.\nStep 3: Submit to Gram Panchayat.",
+      "official_application_url": "https://kalia.odisha.gov.in",
+      "official_source_url": "https://kalia.odisha.gov.in/About.html",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["agriculture", "farmer", "odisha"],
+      "eligibility_rules": [
+        {"field": "state", "operator": "eq", "value": "Odisha", "display_label": "Resident of Odisha", "is_mandatory": true},
+        {"field": "is_farmer", "operator": "eq", "value": "true", "display_label": "Must be a Farmer", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Passbook", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "PM SVANidhi",
+      "description": "Micro-credit facility for street vendors to resume their livelihoods.",
+      "category": "Employment",
+      "government_level": "central",
+      "state": null,
+      "department": "Ministry of Housing and Urban Affairs",
+      "benefits": "Working capital loan up to Rs. 10,000 to 50,000, subsidized interest rate.",
+      "eligibility_summary": "Street vendors vending in urban areas.",
+      "application_steps": "Step 1: Visit PM SVANidhi portal.\nStep 2: Click on 'Apply for Loan'.\nStep 3: Verify mobile via OTP and submit details.",
+      "official_application_url": "https://pmsvanidhi.mohua.gov.in",
+      "official_source_url": "https://pmsvanidhi.mohua.gov.in/Schemes",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["employment", "street vendor", "loan"],
+      "eligibility_rules": [
+        {"field": "area_type", "operator": "eq", "value": "urban", "display_label": "Urban Area", "is_mandatory": true},
+        {"field": "age", "operator": "gte", "value": "18", "display_label": "Minimum Age", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": "Must be linked to mobile number"},
+        {"document_type": "bank_document", "display_name": "Bank Account Details", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "Bihar Student Credit Card",
+      "description": "Financial support to 12th pass students going for higher education.",
+      "category": "Education",
+      "government_level": "state",
+      "state": "Bihar",
+      "department": "Education Department, Bihar",
+      "benefits": "Education loan up to Rs. 4 Lakhs at subsidized interest.",
+      "eligibility_summary": "Resident of Bihar, age 25 or below, completed 12th standard, enrolled in recognized higher education course.",
+      "application_steps": "Step 1: Register on MNSSBY portal.\nStep 2: Visit DRCC with original documents for verification.",
+      "official_application_url": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "official_source_url": "https://www.7nishchay-yuvaupmission.bihar.gov.in/addstudentcreditcard",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["education", "loan", "student", "bihar"],
+      "eligibility_rules": [
+        {"field": "state", "operator": "eq", "value": "Bihar", "display_label": "Resident of Bihar", "is_mandatory": true},
+        {"field": "age", "operator": "lte", "value": "25", "display_label": "Maximum Age", "is_mandatory": true},
+        {"field": "is_student", "operator": "eq", "value": "true", "display_label": "Must be a student", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "residence_certificate", "display_name": "Bihar Resident Certificate", "is_mandatory": true, "notes": null},
+        {"document_type": "student_certificate", "display_name": "Admission Letter / Bonafide", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Account Details", "is_mandatory": true, "notes": null}
+      ]
+    },
+    {
+      "name": "Tamil Nadu Chief Minister's Uzhavar Urimai",
+      "description": "Income support for farmers in Tamil Nadu.",
+      "category": "Agriculture",
+      "government_level": "state",
+      "state": "Tamil Nadu",
+      "department": "Department of Agriculture, Tamil Nadu",
+      "benefits": "Financial assistance to support cultivation costs.",
+      "eligibility_summary": "Farmers residing in Tamil Nadu with active land holdings.",
+      "application_steps": "Step 1: Contact local agricultural extension officer.\nStep 2: Provide land chitta and adangal details.",
+      "official_application_url": "https://tnagrisnet.tn.gov.in",
+      "official_source_url": "https://tnagrisnet.tn.gov.in",
+      "last_verified_date": "2024-01-01",
+      "is_demo_data": true,
+      "tags": ["agriculture", "tamil nadu", "farmer"],
+      "eligibility_rules": [
+        {"field": "state", "operator": "eq", "value": "Tamil Nadu", "display_label": "Resident of Tamil Nadu", "is_mandatory": true},
+        {"field": "is_farmer", "operator": "eq", "value": "true", "display_label": "Must be a Farmer", "is_mandatory": true}
+      ],
+      "required_documents": [
+        {"document_type": "aadhaar", "display_name": "Aadhaar Card", "is_mandatory": true, "notes": null},
+        {"document_type": "bank_document", "display_name": "Bank Passbook", "is_mandatory": true, "notes": null},
+        {"document_type": "residence_certificate", "display_name": "Land Patta/Chitta", "is_mandatory": true, "notes": null}
+      ]
+    }
+  ]
+}

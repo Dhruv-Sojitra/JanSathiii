@@ -1,0 +1,31 @@
+databases:
+  - name: schemesaathi-db
+    plan: free
+    databaseName: schemesaathi
+    user: schemesaathi
+
+services:
+  - type: web
+    name: schemesaathi-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: schemesaathi-db
+          property: connectionString
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      - key: APP_ENV
+        value: production
+      - key: USE_MOCK_AI
+        value: "true"
+      - key: USE_MOCK_S3
+        value: "true"
+      - key: USE_MOCK_TEXTRACT
+        value: "true"
+      - key: SECRET_KEY
+        generateValue: true

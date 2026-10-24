@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="48%" stop-color="#FF9E1B"/>
+      <stop offset="100%" stop-color="#0A8F3D"/>
+    </linearGradient>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="saffron-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8A00"/>
+      <stop offset="100%" stop-color="#FFA826"/>
+    </linearGradient>
+    <linearGradient id="green-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.25" flood-color="#000000"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Shield Container -->
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#bg-grad)" filter="url(#shadow)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="18" y="18" width="220" height="220" rx="54" stroke="rgba(255,255,255,0.4)" stroke-width="2.5" fill="none"/>
+
+  <!-- Dark Inner Medallion for High Contrast -->
+  <rect x="36" y="36" width="184" height="184" rx="42" fill="url(#shield-grad)"/>
+  
+  <!-- Tricolor Arc Bands on Medallion top & bottom -->
+  <path d="M 46 64 C 70 48 100 42 128 42 C 156 42 186 48 210 64" stroke="url(#saffron-glow)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 46 192 C 70 208 100 214 128 214 C 156 214 186 208 210 192" stroke="url(#green-glow)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Stylized JanSathiii Helping Hands & Citizen Core -->
+  <!-- Left Saathi Hand / Wing (Saffron accented) -->
+  <path d="M 72 148 C 72 118 94 92 124 88 C 114 100 110 116 112 134 C 104 135 96 140 90 148 C 84 156 80 166 78 176 C 74 167 72 158 72 148 Z" fill="url(#saffron-glow)"/>
+  
+  <!-- Right Saathi Hand / Wing (Green accented) -->
+  <path d="M 184 148 C 184 118 162 92 132 88 C 142 100 146 116 144 134 C 152 135 160 140 166 148 C 172 156 176 166 178 176 C 182 167 184 158 184 148 Z" fill="url(#green-glow)"/>
+
+  <!-- Central Citizen Silhouette (Pristine White) -->
+  <circle cx="128" cy="112" r="16" fill="#FFFFFF"/>
+  <path d="M 104 162 C 104 144 114 136 128 136 C 142 136 152 144 152 162 C 152 170 146 176 128 176 C 110 176 104 170 104 162 Z" fill="#FFFFFF"/>
+
+  <!-- Ashoka Wheel/Sunburst Sparkle above Citizen head -->
+  <circle cx="128" cy="80" r="4.5" fill="#FDE047"/>
+  <path d="M 128 70 L 128 75 M 128 85 L 128 90 M 118 80 L 123 80 M 133 80 L 138 80" stroke="#FDE047" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Dynamic Digital Connect Nodes -->
+  <circle cx="78" cy="110" r="4" fill="#FFA826"/>
+  <circle cx="178" cy="110" r="4" fill="#34D399"/>
+  <path d="M 82 110 Q 102 100 116 106" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-dasharray="3 3"/>
+  <path d="M 174 110 Q 154 100 140 106" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-dasharray="3 3"/>
+</svg>

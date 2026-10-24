@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="fav-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="50%" stop-color="#FFA826"/>
+      <stop offset="100%" stop-color="#0A8F3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#fav-grad)"/>
+  <rect x="10" y="10" width="108" height="108" rx="22" fill="#0F172A"/>
+  <!-- Central citizen icon with tricolor aura -->
+  <circle cx="64" cy="46" r="14" fill="#FFFFFF"/>
+  <path d="M 42 92 C 42 74 52 66 64 66 C 76 66 86 74 86 92 C 86 98 80 102 64 102 C 48 102 42 98 42 92 Z" fill="#FFFFFF"/>
+  <path d="M 28 72 C 28 54 44 42 60 40" stroke="#FF9E1B" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M 100 72 C 100 54 84 42 68 40" stroke="#10B981" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="64" cy="24" r="3.5" fill="#FDE047"/>
+</svg>

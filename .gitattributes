@@ -1,0 +1,18 @@
+# Normalize line endings for all files
+* text=auto eol=lf
+
+# Force LF for shell scripts and YAML (critical for Linux/Render)
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Force LF for env files
+.env* text eol=lf
+
+# Binary files — no line ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.db binary
