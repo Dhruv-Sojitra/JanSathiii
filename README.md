@@ -8,9 +8,12 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-JanSathiii-brightgreen?style=for-the-badge&logo=github)](https://Dhruv-Sojitra.github.io/JanSathiii/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Dhruv-Sojitra/JanSathiii)
+[![Backend & System Architecture](https://img.shields.io/badge/Architecture-Backend%20Explained-orange?style=for-the-badge)](./BACKEND_AND_SYSTEM_EXPLAINED.md)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#-license)
 
 </p>
+
+> 📖 **Looking for full system internals?** Read the comprehensive [System Functionality & Backend Architecture Guide](./BACKEND_AND_SYSTEM_EXPLAINED.md).
 
 ---
 
